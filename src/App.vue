@@ -2,7 +2,7 @@
   <div id="app">
     <v-app>
       <Header></Header>
-      <v-main>
+      <v-main >
         <Main></Main>
       </v-main>
       <Footer></Footer>

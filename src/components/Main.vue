@@ -1,16 +1,35 @@
-
 <template>
-  <table>
-    <tr>
-      <td colspan="3"><input type="text" v-model="result"></td>
-      <td><v-btn value="C" @click="clear">C</v-btn></td>
-    </tr>
-    <tr v-for="(items, i) in item" :key="i">
-      <td v-for="(NumberAndFormula, j) in items" :key="j">
-        <v-btn @click="calculation(NumberAndFormula)">{{NumberAndFormula}}</v-btn>
-      </td>
-    </tr>
-  </table>
+<div>
+  <v-main>
+    <v-container>
+      <v-row>
+        <v-col cols="12">
+          <v-card>
+            <v-row justify="center">
+              <div>
+                <v-card-text>
+                  <v-card-actions>
+                    <table>
+                      <tr>
+                        <td colspan="3"><input type="text" v-model="result"></td>
+                        <td><v-btn x-large value="C" @click="clear">C</v-btn></td>
+                      </tr>
+                      <tr v-for="(items, i) in item" :key="i">
+                        <td v-for="(NumberAndFormula, j) in items" :key="j">
+                          <v-btn x-large @click="calculation(NumberAndFormula)">{{NumberAndFormula}}</v-btn>
+                        </td>
+                      </tr>
+                    </table>
+                  </v-card-actions>
+                </v-card-text>
+              </div>
+            </v-row>
+          </v-card>
+        </v-col>
+      </v-row>
+    </v-container>
+    </v-main>
+  </div>
 </template>
 
 <script>
@@ -47,5 +66,4 @@
       }
     }
   }
-
 </script>
