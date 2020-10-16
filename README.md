@@ -2,8 +2,6 @@
  
 弊PC部の発表会のテーマが電卓だったので雑に電卓を作っていく
 
-# DEMO
-  
 # Requirement
  
 * vue
@@ -14,11 +12,10 @@
 
  
 ```bash
-$ npm install -g @vue/cli
-$ vue add vuetify
+$ npm install
 ```
  
-# Usage
+# Usage(Starting the development server)
 
 ```bash
 $ npm run serve
