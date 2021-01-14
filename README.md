@@ -1,25 +1,16 @@
 # NITAC-PCC-calculator
  
-弊PC部の発表会のテーマが電卓だったので雑に電卓を作っていく
+弊PC部の発表会のテーマが電卓だったので雑に電卓を作った
 
-# DEMO
-  
-# Requirement
- 
-* vue
-* vuetify
- 
-# Installation
- 
-
+# Setup
  
 ```bash
-$ npm install -g @vue/cli
-$ vue add vuetify
-```
- 
-# Usage
+$ git clone https://github.com/Genshi0916/NITAC-PCC-calculator.git
+$ cd NITAC-PCC-calculator
+$ npm install
+``` 
+# Start
 
 ```bash
-$ npm run serve
+$ npm run dev
 ```
